@@ -1,0 +1,13 @@
+version: 3
+
+tasks:
+  caddy:
+    desc: Runs caddy
+    cmds:
+      - caddy run --watch
+
+  ngrok:
+    desc: Applies schema to the database which will take care of creating the tables
+    cmds:
+      - ngrok http http://localhost:3000
+      - task: models:generate
