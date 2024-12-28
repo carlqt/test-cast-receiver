@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@types/chromecast-caf-receiver':
+        specifier: ^6.0.20
+        version: 6.0.20
       firebase-tools:
         specifier: ^13.29.1
         version: 13.29.1(encoding@0.1.13)
@@ -404,6 +407,9 @@ packages:
 
   '@types/caseless@0.12.5':
     resolution: {integrity: sha512-hWtVTC2q7hc7xZ/RLbxapMvDMgUnDvKvMOpKal4DrMyfGBUfB1oKaZlIRr6mJL+If3bAP6sV/QneGzF6tJjZDg==}
+
+  '@types/chromecast-caf-receiver@6.0.20':
+    resolution: {integrity: sha512-xvluTwCzICvZpzv/HBv9CuSeu9pcwXSVYm8CMH9LI+ExpkxNVt4DMHApVj7YI32GkGH02VHJZ3/LLHkpOAMYMw==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -2870,6 +2876,8 @@ snapshots:
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
   '@types/caseless@0.12.5': {}
+
+  '@types/chromecast-caf-receiver@6.0.20': {}
 
   '@types/estree@1.0.6': {}
 
